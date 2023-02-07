@@ -1,6 +1,14 @@
 def str_func():
+    """
+    все буквы заглавные
+    """
     word = input("Введите слово: ")
-    """
-    функция выводит слово капсом
-    """
     return word.upper()
+
+
+def str_func_cap():
+    """
+    первые буквы заглавные
+    """
+    words = input("Введите слово: ")
+    return words.capitalize()
