@@ -12,3 +12,5 @@ def str_func_cap():
     """
     words = input("Введите слово: ")
     return words.capitalize()
+
+# пофиксил баг
